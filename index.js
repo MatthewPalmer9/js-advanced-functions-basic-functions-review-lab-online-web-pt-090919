@@ -9,7 +9,7 @@ function mondayWork(activity = "go to the office"){
 }
 
 function wrapAdjective(param = "*"){
-  (function(param = "*"){
+  return function(param = "*"){
     return `You are ${param}`
-  })
+  }
 }
