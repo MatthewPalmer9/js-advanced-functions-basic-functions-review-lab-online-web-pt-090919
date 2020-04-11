@@ -29,3 +29,9 @@ let Calculator = {
     }
 }
 
+function actionApplyer(start, array) {
+    for (let i = 0; i < array.length; i++) {
+    start = array[i](start)
+    }
+    return start
+}
